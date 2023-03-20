@@ -1,9 +1,9 @@
 package com.driver;
 
 public class Boat implements WaterVehicle{
-      String name;
-      int Capacity;
-      Boat(String name,int Capacity){
+     public String name;
+      public int Capacity;
+      public  Boat(String name,int Capacity){
           this.name = name;
           this.Capacity = Capacity;
       }
